@@ -9,6 +9,7 @@ header {
   justify-content: space-around;
   align-items: center;
   font-weight: 600;
+  color: #919095;
 }
 
 li {
@@ -17,8 +18,10 @@ li {
 }
 
 li:hover {
-  border-bottom: 5px solid #31cf72;
   transition: 100ms;
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient(to right, #31cf72, #2bb9d1);
+  border-image-slice: 1;
 }
 
 #request_button {
