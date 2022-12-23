@@ -34,6 +34,7 @@ header {
   align-items: center;
   border-radius: 25px;
   color: #ffffff;
+  font-weight: 700;
 }
 
 .request_button:hover {
@@ -43,6 +44,10 @@ header {
 
 .hidden_desktop {
   display: none;
+}
+
+h1 {
+  font-size: 45px;
 }
 
 .banner_image_desktop {
@@ -58,7 +63,6 @@ header {
 
 .articles {
   height: 600px;
-  width: 100%;
   background-color: #fafafa;
 }
 
@@ -248,6 +252,7 @@ footer li {
   .container {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
   }
 
   .banner_leftside {
@@ -323,14 +328,20 @@ footer li {
   .benefits_boxes {
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
   .benefits_boxes div:first-child {
-    margin-left: 200px;
+    padding-left: 200px;
   }
 
   .benefits_boxes div {
     width: 250px;
     padding: 10px;
+  }
+
+  .articles {
+    padding-left: 170px;
+    padding-right: 170px;
   }
 }
